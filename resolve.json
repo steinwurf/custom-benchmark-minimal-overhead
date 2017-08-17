@@ -1,0 +1,22 @@
+[
+    {
+        "name": "gauge",
+        "internal": true,
+        "resolver": "git",
+        "method": "semver",
+        "major": 11,
+        "sources": [
+            "github.com/steinwurf/gauge.git"
+        ]
+    },
+    {
+    "name": "kodo-rlnc",
+    "optional": true,
+    "resolver": "git",
+    "method": "semver",
+    "major": 7,
+    "sources": [
+        "github.com/steinwurf/kodo-rlnc.git"
+    ]
+    }
+]
